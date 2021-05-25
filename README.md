@@ -15,9 +15,9 @@ API powinno umożliwiać:
 + Zwrócenie listy spotkań
 + Zapis uczestnika na spotkanie
 + Wymaganie do spotkania:
- + Obowiązuje limit 25 uczestników
+    + Obowiązuje limit 25 uczestników
 + Wymagania do uczestników:
- + Przy zapisie na spotkanie należy podać imię i adres e-mail
+    + Przy zapisie na spotkanie należy podać imię i adres e-mail
  
 Aplikacja powinna być napisana w języku **C#** z wykorzystaniem platformy **.NET 5.0.**
 Bazą danych, może być dowolna baza **SQL** np. **MSSQL**, **PostgreSQL**, **MySQL** lub dokumentowa np. **MongoDB**.
