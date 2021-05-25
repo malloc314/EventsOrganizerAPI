@@ -19,8 +19,8 @@ API powinno umożliwiać:
 + Wymagania do uczestników:
     + Przy zapisie na spotkanie należy podać imię i adres e-mail
  
-Aplikacja powinna być napisana w języku **C#** z wykorzystaniem platformy **.NET 5.0.**
-Bazą danych, może być dowolna baza **SQL** np. **MSSQL**, **PostgreSQL**, **MySQL** lub dokumentowa np. **MongoDB**.
+Aplikacja powinna być napisana w języku **C#** z wykorzystaniem platformy **`.NET 5.0`.**
+Bazą danych, może być dowolna baza **`SQL`** np. **MSSQL**, **PostgreSQL**, **MySQL** lub dokumentowa np. **MongoDB**.
 
 # Opis zadania
 **Event organizer API** to prosta aplikacja backendowa napisana w standardzie **REST API** na potrzeby zadania rekrutacyjnego dla firmy **x-kom**. Z racji na prosty charakter, celowo pominąłem szereg dobrych praktyk związanych z projektowaniem i programowaniem jak na przykład: **podział struktury projektu na warstwy zgodnie z zasadami czystej architektury** czy **dostateczna walidacja danych wejściowych** etc.
@@ -34,12 +34,12 @@ C#  | `9.0`
 ASP.NET Core | `5.0`
 MS SQL Server | `18`
 
-# Użyte biblioteki
+# Użyte pakiety NuGet
 Biblioteki i frameworki jakich użyłem do wykonania zadania.
 
-Framework | Opis
+Pakiet Nuget | Opis
 ------------- | -------------
-Auto mapper  | Mapowanie modeli DTO
+AutoMapper  | Mapowanie modeli DTO
 Entity | Mapowanie baz danych
 Swagger | Dokumentacja API
 
