@@ -19,7 +19,7 @@ API powinno umożliwiać:
 + Wymagania do uczestników:
     + Przy zapisie na spotkanie należy podać imię i adres e-mail
  
-Aplikacja powinna być napisana w języku **C#** z wykorzystaniem platformy **`.NET 5.0`.**
+Aplikacja powinna być napisana w języku **`C#`** z wykorzystaniem platformy **`.NET 5.0`.**
 Bazą danych, może być dowolna baza **`SQL`** np. **MSSQL**, **PostgreSQL**, **MySQL** lub dokumentowa np. **MongoDB**.
 
 # Opis zadania
