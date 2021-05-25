@@ -3,7 +3,7 @@
 - [Opis zadania](#opis-zadania "Opis zadania")
 - [Środowisko pracy](#środowisko-pracy "Środowisko pracy")
 - [Użyte biblioteki](#użyte-biblioteki "Użyte biblioteki")
-- [Dostępne punkty końcowe](#Dostępne-punkty-końcowe "Dostępne punkty końcowe")
+- [Punkty końcowe](#punkty-końcowe "Punkty końcowe")
 
 # Treść zadania
 Napisz proste **API** do organizowania i zapisywania na spotkania/eventy/seminaria.
@@ -43,8 +43,11 @@ Auto mapper  | Mapowanie modeli DTO
 Entity | Mapowanie baz danych
 Swagger | Dokumentacja API
 
-# Dostępne punkty końcowe
-Aktualnie dostępne punkty końcowe.
+# Punkty końcowe
+- [x] Aktualnie dostępne
+- [ ] Wkrótce dostępne
+
+### api/event
 
 > Pobieranie wszystkich wydarzeń (widok administratora)
 
@@ -54,6 +57,10 @@ Aktualnie dostępne punkty końcowe.
 
 - [x]  **`GET` /api/event/member** 
 
+> Wyszukiwanie po temacie
+
+- [ ]  **`GET` /api/event/{subiect}** 
+
 > Tworzenie nowego wydarzenia
 
 - [x]  **`POST` /api/event**
@@ -62,9 +69,13 @@ Aktualnie dostępne punkty końcowe.
 
 - [x]  **`DELETE` /api/event/{guid}**
 
-***
-
+### api/member
 > Zapisanie uczestnika na wybrane wydarzenie
 
 - [x]  **`POST` /api/member** 
+
+> Usuwanie uczestnika po identyfikatorze
+
+- [ ]  **`DELETE` /api/member/{guid}** 
+
 
