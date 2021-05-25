@@ -1,4 +1,4 @@
-﻿**Spis treści**
+﻿# Spis treści
 - [Treść zadania](#treść-zadania "Treść zadania")
 - [Opis zadania](#opis-zadania "Opis zadania")
 - [Środowisko pracy](#środowisko-pracy "Środowisko pracy")
