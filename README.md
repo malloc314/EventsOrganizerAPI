@@ -2,7 +2,7 @@
 - [Treść zadania](#treść-zadania "Treść zadania")
 - [Opis zadania](#opis-zadania "Opis zadania")
 - [Środowisko pracy](#środowisko-pracy "Środowisko pracy")
-- [Użyte biblioteki](#użyte biblioteki "Użyte biblioteki")
+- [Użyte biblioteki](#użyte-biblioteki "Użyte biblioteki")
 - [Dostępne punkty końcowe](#Dostępne-punkty-końcowe "Dostępne punkty końcowe")
 
 # Treść zadania
