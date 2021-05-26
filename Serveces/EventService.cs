@@ -44,6 +44,18 @@ namespace EventsOrganizer.Serveces
             return mappingEvent;
         }
 
+        public List<GetEventDtoMember> SearchBySubiect(string subiect)
+        {
+            var events = _dbContext.Events
+                .Where(e => e.Subiect.ToLower().Contains(subiect.ToLower()))
+                .Include(e => e.Address)
+                .ToList();
+
+            var mappingEvent = _mapper.Map<List<GetEventDtoMember>>(events);
+
+            return mappingEvent;
+        }
+
         public Guid CreateEvent(CreateEventDto dto)
         {
             var mappingEvent = _mapper.Map<Event>(dto);

@@ -38,6 +38,14 @@ namespace EventsOrganizer.Controllers
             return Ok(events);
         }
 
+        [HttpGet("{subiect}")]
+        public ActionResult<IEnumerable<GetEventDtoMember>> Search([FromRoute] string subiect)
+        {
+            var events = _service.SearchBySubiect(subiect);
+            
+            return Ok(events);
+        }
+
         [HttpPost]
         public ActionResult Create([FromBody] CreateEventDto dto)
         {
