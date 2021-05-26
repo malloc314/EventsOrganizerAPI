@@ -41,7 +41,7 @@ namespace EventsOrganizer.Controllers
         [HttpGet("{subiect}")]
         public ActionResult<IEnumerable<GetEventDtoMember>> Search([FromRoute] string subject)
         {
-            var events = _service.SearchBySubiect(subject);
+            var events = _service.SearchBySubject(subject);
             
             return Ok(events);
         }
