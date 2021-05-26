@@ -58,7 +58,7 @@ Swagger | Dokumentacja API
 
 > Wyszukiwanie po temacie
 
-- [x]  **`GET` /api/event/{subiect}** 
+- [x]  **`GET` /api/event/{subject}** 
 
 > Tworzenie nowego wydarzenia
 

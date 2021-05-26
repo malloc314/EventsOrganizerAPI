@@ -44,10 +44,10 @@ namespace EventsOrganizer.Serveces
             return mappingEvent;
         }
 
-        public List<GetEventDtoMember> SearchBySubiect(string subiect)
+        public List<GetEventDtoMember> SearchBySubiect(string subject)
         {
             var events = _dbContext.Events
-                .Where(e => e.Subiect.ToLower().Contains(subiect.ToLower()))
+                .Where(e => e.Subiect.ToLower().Contains(subject.ToLower()))
                 .Include(e => e.Address)
                 .ToList();
 

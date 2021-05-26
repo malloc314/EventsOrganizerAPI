@@ -12,7 +12,7 @@ namespace EventsOrganizer.Serveces
     {
         public List<GetEventDtoAdmin> GetEventsForAdmin();
         public List<GetEventDtoMember> GetEventsForMember();
-        public List<GetEventDtoMember> SearchBySubiect(string subiect);
+        public List<GetEventDtoMember> SearchBySubiect(string subject);
         public Guid CreateEvent(CreateEventDto dto);
         public bool DeleteEvent(Guid guid);
     }
