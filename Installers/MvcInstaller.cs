@@ -17,7 +17,7 @@ namespace EventsOrganizer.Installers
         public void InstallServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddDbContext<EventOrganizerDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("EventOrganizerCS")));
+                options.UseSqlServer(configuration.GetConnectionString("EventOrganizerCsWin")));
 
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
